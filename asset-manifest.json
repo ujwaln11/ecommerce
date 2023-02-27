@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ecommerce/static/css/main.80df5638.css",
+    "main.js": "/ecommerce/static/js/main.b819781c.js",
+    "static/js/787.70b936e9.chunk.js": "/ecommerce/static/js/787.70b936e9.chunk.js",
+    "static/media/online-shopping-shopping-cart-placed-alongside-notebook-blue.jpg": "/ecommerce/static/media/online-shopping-shopping-cart-placed-alongside-notebook-blue.1bbc0e5049923d599e4f.jpg",
+    "index.html": "/ecommerce/index.html",
+    "main.80df5638.css.map": "/ecommerce/static/css/main.80df5638.css.map",
+    "main.b819781c.js.map": "/ecommerce/static/js/main.b819781c.js.map",
+    "787.70b936e9.chunk.js.map": "/ecommerce/static/js/787.70b936e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80df5638.css",
+    "static/js/main.b819781c.js"
+  ]
+}
