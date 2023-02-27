@@ -1,0 +1,46 @@
+.single-page{
+    display: flex;
+    justify-content: space-between;
+}
+
+.back {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+.back a{
+    text-decoration: none;
+    color: black;
+}
+
+.single-product{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+.single-product-image img{
+    width: 300px;
+}
+
+.single-product .s2{
+    margin-left: 20px;   
+}
+
+.single-product-add{
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 35px auto;
+}
