@@ -1,0 +1,494 @@
+html{
+  font-size: 62.5%;
+}
+
+/* HEADER CSS STARTS */
+
+.header{
+  position: sticky;
+  top: 0;
+  min-height: 8.0rem;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  background-color: #141414;
+}
+
+.logo{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding-left: 4.0rem;
+}
+
+.header-Links{
+  display: flex;
+}
+
+.header-Links ul li{
+  list-style: none;
+  display: inline-block;
+  font-size: 1.8rem;
+}
+
+.header-Links ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 0rem 1.5rem;
+}
+
+.header-Links ul li a:hover{
+  color: #fffc3c;
+}
+
+.cart{
+  padding-right: 2.0rem;
+  margin-right: 3.0rem;
+}
+
+sup{
+  color: red;
+}
+
+/* HEADER CSS ENDS */
+
+/* HOME CSS STARTS */
+
+.banner {
+  height: 60.0rem;
+  background-image: url("./Images/online-shopping-shopping-cart-placed-alongside-notebook-blue.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.banner-content {
+  border-top: .5rem solid #1bbd36;
+  width: 60.0rem;
+  padding: 2.0rem;
+  margin-left: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.574);
+  color: white;
+}
+
+.banner-content p {
+  font-size: 1.4rem;
+  margin-top: 1.0rem;
+  margin-bottom: 1.0rem;
+}
+
+.banner-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.0rem;
+}
+
+.banner-button a {
+  padding: .7rem 2.0rem;
+  font-size: 1.8rem;
+  color: white;
+  text-decoration: none;
+  border: .2rem solid #1bbd36;
+  border-radius: .5rem;
+  font-weight: bold;
+  word-spacing: .3rem;
+  transition: all .8s;
+}
+
+.banner-button a:hover {
+  background-color: #1bbd36;
+}
+
+.listing {
+  /* border: 2rem solid red; */
+  margin: 5.0rem 8.0rem;
+  padding: .2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.listing-content {
+  /* border:2rem solid green; */
+  margin: 2.0rem;
+  padding: 1.0rem;
+  width: 60.0rem;
+  font-size: 1.5rem;
+}
+
+.listing-content h1 {
+  font-size: 3.0rem;
+}
+
+.listing-content h3 {
+  font-size: 2.0rem;
+  color: rgba(0, 0, 0, 0.654);
+  margin-top: 3.0rem;
+}
+
+.listing-content ul {
+  margin-top: 2.0rem;
+  margin-bottom: 2.0rem;
+}
+
+.listing-content ul li {
+  margin-top: 1.2rem;
+  list-style-type: none;
+}
+
+.listing-content ul li .fa {
+  color: #1bbd36;
+}
+
+
+.footer {
+  /* border: 2rem solid red; */
+  margin-top: 5.0rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 5.0rem;
+  font-size: 1.3rem;
+}
+
+.footer-div1,
+.footer-div2{
+  /* border: 2rem solid green; */
+  width: 25.0rem;
+  padding: .5rem;
+  margin: 1.0rem;
+}
+
+.footer-div3 {
+  /* border: 2rem solid blue; */
+  width: 40.0rem;
+  padding: .5rem;
+  margin: 1.0rem;
+}
+.footer-div2 a{
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+}
+.footer-div2 ul li
+{
+  list-style-type: none;
+  margin-top: 1.0rem;
+}
+.footer-div1 .para
+{
+  margin-top: 1.0rem;
+  margin-bottom: 20rem;
+}
+
+.fa-chevron-right
+{
+  color: #1bbd36;
+  font-size: 0.9rem;
+}
+.footer-div3 p
+{
+  margin-top: 1.0rem;
+  margin-bottom: 2.0rem;
+}
+.footer-div3 .subscribe
+{
+  /* border: 2rem solid yellow; */
+  padding: .2rem;
+  position: relative;
+}
+.footer-div3 .subscribe input
+{
+  width: 100%;
+  padding: .7rem;
+  outline: none;
+  border: none;
+  border-radius: .4rem;
+}
+.footer-div3 .subscribe button
+{
+  padding: .7rem;
+  outline: none;
+  border: none;
+  background-color: #1bbd36;
+  color: white;
+  font-weight: 500;
+  text-transform: capitalize;
+  position: absolute;
+  right: 0;
+  border-radius:0rem .4rem .4rem 0rem;
+}
+
+/* HOME CSS ENDS */
+
+/* PRODCUCTS CSS STARTS */
+
+.products{
+  margin: 1.0rem auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: .5rem;
+}
+
+.card{
+  width: 30.0rem;
+  height: auto;
+  border: .1rem solid black;
+  border-radius: .5rem;
+  overflow: hidden;
+  padding: 1.0rem;
+  margin: 1.0rem 2.0rem 4.0rem 2.0rem;
+  /* background-color: rgba(250, 246, 246, 0.925); */
+  background-color: #f6f8f6;
+}
+
+.product-image{
+  width: 100%;
+  /* max-width: 300rem; */
+  height: 30.0rem;
+  display: inline-block;
+  /* object-fit: cover; */
+}
+
+.product-name{
+  text-transform: uppercase;
+  margin: 1.0rem 0rem;
+  font-size: 1.5rem;
+}
+
+.product-price{
+  margin: 1.0rem 0rem;
+  padding-bottom: 2.0rem;
+  font-size: 2.0rem;
+  line-height: 2.0rem;
+}
+
+.product-info{
+  /* margin: 10rem 0rem; */
+  padding-bottom: 1.0rem;
+  font-size: 1.5rem;
+}
+
+.product-info a{
+  /* text-decoration: none; */
+  color: black;
+  font-weight: 700;
+}
+
+.product-add-button{
+  font-weight: 700;
+  font-size: 1.8rem;
+  border-radius: .5rem;
+  border: none;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 4.0rem;
+  display: block;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 1.5rem auto;
+}
+
+/* PRODUCTS CSS ENDS */
+
+/* SINGLE PRODUCT CSS STARTS */
+
+.single-page{
+  display: flex;
+  justify-content: space-between;
+}
+
+.back {
+  font-size: 2.0rem;
+  margin-top: 2.0rem;
+  margin-left: 2.5em;
+  font-weight: 700;
+}
+
+.back a{
+  text-decoration: none;
+  color: black;
+}
+
+.single-product{
+  width: 80%;
+  display: flex;
+  /* font-size: 1.5rem; */
+  justify-content: space-between;
+  margin: 5.0rem auto;
+}
+
+.single-product-image img{
+  width: 30.0rem;
+  max-width: 30rem;
+}
+
+.single-product .s2{
+  margin-left: 2.0rem;   
+  font-size: 2rem;
+}
+
+.single-product-add{
+  font-weight: 700;
+  font-size: 1.8rem;
+  border-radius: .5rem;
+  border: none;
+  background-color: black;
+  color: white;
+  width: 20%;
+  height: 4.0rem;
+  display: block;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 3.5rem auto;
+}
+
+/* SINGLE PRODUCT CSS ENDS */
+
+/* CART CSS STARTS*/
+
+.cart-items{
+  margin: 3.0rem auto;
+  width: 70%;
+  background-color: #f6f8f6;
+  border: .2rem solid black;
+  border-radius: .5rem;
+}
+
+.cart-items-header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2.0rem;
+  border-bottom: .2rem solid black;
+}
+
+.cart-items-empty{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding-top: 2.0rem;
+  padding-bottom: 2.0rem;
+}
+
+.cart-items-image{
+  width: 10.0rem;
+  height: auto;
+  border: .2rem solid black;
+  margin-right: 2.5rem;
+}
+
+.cart-items-list{
+  display: flex;
+  align-items: center;
+  padding-top: 2.0rem;
+  padding-left: 2.0rem;
+  padding-bottom: 2.0rem;
+  font-size: 2.0rem;
+  font-weight: 700;
+  margin-left: 5%;
+}
+
+.cart-items-name,
+.cart-items-function{
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 1.0rem;
+}
+
+.cart-items-add,
+.cart-items-remove{
+  width: 3.0rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  font-weight: 700;
+  border: none;
+  border-radius: .3rem;
+  font-size: 1.8rem;
+  color: white;
+  cursor: pointer;
+}
+
+.cart-items-add{
+  background-color: red;
+}
+
+.cart-items-remove{
+  background-color: green;
+}
+
+.cart-items-add:active{
+  transform: translateY(.12rem);
+}
+
+.cart-items-remove:active{
+  transform: translateY(0.12rem);
+}
+
+.cart-items-total-price-name{
+  display: flex;
+  padding-top: 2.0rem;
+  padding-bottom: 2.0rem;
+  padding-left: 22%;
+  font-size: 2.0rem;
+  font-weight: 700;
+  border-top: .2rem solid black;
+}
+
+.cart-items-total-price{
+  display: flex;
+  padding-left: 45%;
+}
+
+.cart-clear{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.0rem;
+  margin-right: 1.0rem;
+}
+
+.cart-clear-button{
+color: green;
+height: 3.0rem;
+width: 10.0rem;
+font-size: 2.0rem;
+cursor: pointer;
+}
+
+.cart-clear-button:hover{
+  color: red;
+}
+
+/* CART CSS ENDS */
+
+@media(max-width:998px){
+  html{
+    font-size: 55%;
+  }
+}
+
+@media(max-width:768px){
+  html{
+    font-size: 45%;
+  }
+}
+
+@media(max-width:460px){
+  html{
+    font-size: 20%;
+  }
+}
