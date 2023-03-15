@@ -2,6 +2,7 @@ import React from "react";
 // import "./Products.css";
 import '../../App.css';
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 const Products = (props) => {
   return (
     <div className="products">

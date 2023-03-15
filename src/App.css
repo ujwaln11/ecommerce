@@ -54,6 +54,22 @@ sup{
   color: red;
 }
 
+.search button {
+border: none;
+background-color: #1bbd36;
+text-decoration: none;
+width: 8rem;
+height: 3.5rem;
+/* position: relative; */
+}
+
+.search input{
+  border: none;
+  width: 40rem;
+  height: 3.5rem;
+  /* position: absolute; */
+}
+
 /* HEADER CSS ENDS */
 
 /* HOME CSS STARTS */

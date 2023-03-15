@@ -4,6 +4,7 @@ import Products from '../Products/Products'
 import Cart from '../Cart/Cart'
 import Home from '../Home/Home'
 import SingleProduct from '../SingleProduct/SingleProduct'
+import Search from '../Search/Search'
 
 const Routes = (props) => {
   return (
@@ -20,6 +21,9 @@ const Routes = (props) => {
             </Route>
             <Route path='/products/:id'>
                <SingleProduct productItems={props.productItems} handleAddProduct={props.handleAddProduct}/>
+            </Route>
+            <Route path='/search:searchKeyword'>
+               <Search productItems={props.productItems}/>
             </Route>
         </Switch>
     </div>
