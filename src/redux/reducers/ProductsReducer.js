@@ -1,4 +1,4 @@
-import { ActionTypes } from "../constants/action-types";
+import { ActionTypes } from "../types/ActionTypes";
 const intialState = {
   products: [],
 };
